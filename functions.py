@@ -16,8 +16,9 @@ def hello(name):
     print(greeting)
 
 
-    
+def greeting(name,age):
+    print(f"Hello world{name}{age}")
 
-    
+greeting()    
 
     
