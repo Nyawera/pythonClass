@@ -15,7 +15,7 @@ class Account:
              print(f"Deposit must be positive amount")
         else:
             self.account_balance+=amount   
-            now= datetime.now()
+            now=  datetime.now()
             transaction={
                 "amount":amount,
                 "time":now,
@@ -57,7 +57,7 @@ class Account:
     def current_balance(self):
         return self.account_balance
 
-    def full_Statement(self):
+    def fulnml_Statement(self):
         for transaction in self.statement:
             amount = transaction["amount"]
             Narration= transaction["Narration"]
@@ -103,3 +103,26 @@ class Account:
             self.loan_balance-=amount
             instance_account.loan_balance += amount
             return f"you have transfered {amount} to {instance_account} account with the name {instance_account.full_name} and your new balance is {self.account_balance}"
+            
+
+#combinining two list
+# def full_Statemnt(self);
+# statements = self deposit + self withdrawals
+# for statement in statements:
+#     statement sort(key=lambda)
+
+#     lambda
+
+
+
+
+
+    # acc1=Account(Nyawera=--,number--)
+    # acc2=Account(Tut=---,number----)
+    # acc1.transfer(0,2)
+
+
+
+
+
+
